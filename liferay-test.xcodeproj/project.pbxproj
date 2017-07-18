@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952245931F1E5E2F000B1AA0 /* asset in Resources */ = {isa = PBXBuildFile; fileRef = 952245921F1E5E2F000B1AA0 /* asset */; };
+		95C1C3A01F1E0A1A00056310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C39F1F1E0A1A00056310 /* AppDelegate.swift */; };
+		95C1C3A21F1E0A1A00056310 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3A11F1E0A1A00056310 /* ViewController.swift */; };
+		95C1C3A51F1E0A1A00056310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3A31F1E0A1A00056310 /* Main.storyboard */; };
+		95C1C3A71F1E0A1A00056310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3A61F1E0A1A00056310 /* Assets.xcassets */; };
+		95C1C3AA1F1E0A1A00056310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3A81F1E0A1A00056310 /* LaunchScreen.storyboard */; };
+		95C1C3B51F1E0A1A00056310 /* liferay_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3B41F1E0A1A00056310 /* liferay_testTests.swift */; };
+		95C1C3C01F1E0A1A00056310 /* liferay_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3BF1F1E0A1A00056310 /* liferay_testUITests.swift */; };
+		95C1C3CF1F1E1C7F00056310 /* InitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3CE1F1E1C7F00056310 /* InitController.swift */; };
+		95C1C3D11F1E21B300056310 /* base.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3D01F1E21B300056310 /* base.plist */; };
+		BA831BFB8CC39E94A4CFC047 /* Pods_liferay_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0950401AE08F266722D03305 /* Pods_liferay_test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95C1C3B11F1E0A1A00056310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C1C3941F1E0A1A00056310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C1C39B1F1E0A1A00056310;
+			remoteInfo = "liferay-test";
+		};
+		95C1C3BC1F1E0A1A00056310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C1C3941F1E0A1A00056310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C1C39B1F1E0A1A00056310;
+			remoteInfo = "liferay-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0950401AE08F266722D03305 /* Pods_liferay_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liferay_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAADDAA5904FE8122E67DA2 /* Pods-liferay-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-test/Pods-liferay-test.release.xcconfig"; sourceTree = "<group>"; };
+		952245921F1E5E2F000B1AA0 /* asset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = asset; sourceTree = "<group>"; };
+		95C1C39C1F1E0A1A00056310 /* liferay-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "liferay-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C1C39F1F1E0A1A00056310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95C1C3A11F1E0A1A00056310 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95C1C3A41F1E0A1A00056310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95C1C3A61F1E0A1A00056310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95C1C3A91F1E0A1A00056310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95C1C3AB1F1E0A1A00056310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C1C3B01F1E0A1A00056310 /* liferay-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "liferay-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C1C3B41F1E0A1A00056310 /* liferay_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liferay_testTests.swift; sourceTree = "<group>"; };
+		95C1C3B61F1E0A1A00056310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C1C3BB1F1E0A1A00056310 /* liferay-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "liferay-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C1C3BF1F1E0A1A00056310 /* liferay_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liferay_testUITests.swift; sourceTree = "<group>"; };
+		95C1C3C11F1E0A1A00056310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C1C3CE1F1E1C7F00056310 /* InitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitController.swift; sourceTree = "<group>"; };
+		95C1C3D01F1E21B300056310 /* base.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = base.plist; sourceTree = "<group>"; };
+		B422B717FE24D0669254DBE5 /* Pods-liferay-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-test/Pods-liferay-test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95C1C3991F1E0A1A00056310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA831BFB8CC39E94A4CFC047 /* Pods_liferay_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C1C3AD1F1E0A1A00056310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C1C3B81F1E0A1A00056310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9522458D1F1E5DCE000B1AA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				952245921F1E5E2F000B1AA0 /* asset */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		95C1C3931F1E0A1A00056310 = {
+			isa = PBXGroup;
+			children = (
+				95C1C39E1F1E0A1A00056310 /* liferay-test */,
+				95C1C3B31F1E0A1A00056310 /* liferay-testTests */,
+				95C1C3BE1F1E0A1A00056310 /* liferay-testUITests */,
+				95C1C39D1F1E0A1A00056310 /* Products */,
+				DC9E2673A11C3359DB274FE5 /* Pods */,
+				A733F45833E20B6CA80EF74B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95C1C39D1F1E0A1A00056310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95C1C39C1F1E0A1A00056310 /* liferay-test.app */,
+				95C1C3B01F1E0A1A00056310 /* liferay-testTests.xctest */,
+				95C1C3BB1F1E0A1A00056310 /* liferay-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95C1C39E1F1E0A1A00056310 /* liferay-test */ = {
+			isa = PBXGroup;
+			children = (
+				9522458D1F1E5DCE000B1AA0 /* Resources */,
+				95C1C3CD1F1E1C5900056310 /* Controllers */,
+				95C1C39F1F1E0A1A00056310 /* AppDelegate.swift */,
+				95C1C3A31F1E0A1A00056310 /* Main.storyboard */,
+				95C1C3A61F1E0A1A00056310 /* Assets.xcassets */,
+				95C1C3A81F1E0A1A00056310 /* LaunchScreen.storyboard */,
+				95C1C3AB1F1E0A1A00056310 /* Info.plist */,
+				95C1C3D01F1E21B300056310 /* base.plist */,
+			);
+			path = "liferay-test";
+			sourceTree = "<group>";
+		};
+		95C1C3B31F1E0A1A00056310 /* liferay-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				95C1C3B41F1E0A1A00056310 /* liferay_testTests.swift */,
+				95C1C3B61F1E0A1A00056310 /* Info.plist */,
+			);
+			path = "liferay-testTests";
+			sourceTree = "<group>";
+		};
+		95C1C3BE1F1E0A1A00056310 /* liferay-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95C1C3BF1F1E0A1A00056310 /* liferay_testUITests.swift */,
+				95C1C3C11F1E0A1A00056310 /* Info.plist */,
+			);
+			path = "liferay-testUITests";
+			sourceTree = "<group>";
+		};
+		95C1C3CD1F1E1C5900056310 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				95C1C3A11F1E0A1A00056310 /* ViewController.swift */,
+				95C1C3CE1F1E1C7F00056310 /* InitController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A733F45833E20B6CA80EF74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0950401AE08F266722D03305 /* Pods_liferay_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC9E2673A11C3359DB274FE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B422B717FE24D0669254DBE5 /* Pods-liferay-test.debug.xcconfig */,
+				2AAADDAA5904FE8122E67DA2 /* Pods-liferay-test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95C1C39B1F1E0A1A00056310 /* liferay-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C1C3C41F1E0A1A00056310 /* Build configuration list for PBXNativeTarget "liferay-test" */;
+			buildPhases = (
+				6E04EEAE639D97087706D329 /* [CP] Check Pods Manifest.lock */,
+				95C1C3981F1E0A1A00056310 /* Sources */,
+				95C1C3991F1E0A1A00056310 /* Frameworks */,
+				95C1C39A1F1E0A1A00056310 /* Resources */,
+				C1B27F9CAA3A6A093510E54D /* [CP] Embed Pods Frameworks */,
+				79FF4C8D1FE887E43C879644 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "liferay-test";
+			productName = "liferay-test";
+			productReference = 95C1C39C1F1E0A1A00056310 /* liferay-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95C1C3AF1F1E0A1A00056310 /* liferay-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C1C3C71F1E0A1A00056310 /* Build configuration list for PBXNativeTarget "liferay-testTests" */;
+			buildPhases = (
+				95C1C3AC1F1E0A1A00056310 /* Sources */,
+				95C1C3AD1F1E0A1A00056310 /* Frameworks */,
+				95C1C3AE1F1E0A1A00056310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95C1C3B21F1E0A1A00056310 /* PBXTargetDependency */,
+			);
+			name = "liferay-testTests";
+			productName = "liferay-testTests";
+			productReference = 95C1C3B01F1E0A1A00056310 /* liferay-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95C1C3BA1F1E0A1A00056310 /* liferay-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C1C3CA1F1E0A1A00056310 /* Build configuration list for PBXNativeTarget "liferay-testUITests" */;
+			buildPhases = (
+				95C1C3B71F1E0A1A00056310 /* Sources */,
+				95C1C3B81F1E0A1A00056310 /* Frameworks */,
+				95C1C3B91F1E0A1A00056310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95C1C3BD1F1E0A1A00056310 /* PBXTargetDependency */,
+			);
+			name = "liferay-testUITests";
+			productName = "liferay-testUITests";
+			productReference = 95C1C3BB1F1E0A1A00056310 /* liferay-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95C1C3941F1E0A1A00056310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Salvador Tejero";
+				TargetAttributes = {
+					95C1C39B1F1E0A1A00056310 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P6UPE72S5P;
+						ProvisioningStyle = Automatic;
+					};
+					95C1C3AF1F1E0A1A00056310 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95C1C39B1F1E0A1A00056310;
+					};
+					95C1C3BA1F1E0A1A00056310 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95C1C39B1F1E0A1A00056310;
+					};
+				};
+			};
+			buildConfigurationList = 95C1C3971F1E0A1A00056310 /* Build configuration list for PBXProject "liferay-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95C1C3931F1E0A1A00056310;
+			productRefGroup = 95C1C39D1F1E0A1A00056310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95C1C39B1F1E0A1A00056310 /* liferay-test */,
+				95C1C3AF1F1E0A1A00056310 /* liferay-testTests */,
+				95C1C3BA1F1E0A1A00056310 /* liferay-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95C1C39A1F1E0A1A00056310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952245931F1E5E2F000B1AA0 /* asset in Resources */,
+				95C1C3AA1F1E0A1A00056310 /* LaunchScreen.storyboard in Resources */,
+				95C1C3A71F1E0A1A00056310 /* Assets.xcassets in Resources */,
+				95C1C3A51F1E0A1A00056310 /* Main.storyboard in Resources */,
+				95C1C3D11F1E21B300056310 /* base.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C1C3AE1F1E0A1A00056310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C1C3B91F1E0A1A00056310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E04EEAE639D97087706D329 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79FF4C8D1FE887E43C879644 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liferay-test/Pods-liferay-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B27F9CAA3A6A093510E54D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liferay-test/Pods-liferay-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95C1C3981F1E0A1A00056310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C1C3A21F1E0A1A00056310 /* ViewController.swift in Sources */,
+				95C1C3CF1F1E1C7F00056310 /* InitController.swift in Sources */,
+				95C1C3A01F1E0A1A00056310 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C1C3AC1F1E0A1A00056310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C1C3B51F1E0A1A00056310 /* liferay_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C1C3B71F1E0A1A00056310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C1C3C01F1E0A1A00056310 /* liferay_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95C1C3B21F1E0A1A00056310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95C1C39B1F1E0A1A00056310 /* liferay-test */;
+			targetProxy = 95C1C3B11F1E0A1A00056310 /* PBXContainerItemProxy */;
+		};
+		95C1C3BD1F1E0A1A00056310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95C1C39B1F1E0A1A00056310 /* liferay-test */;
+			targetProxy = 95C1C3BC1F1E0A1A00056310 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95C1C3A31F1E0A1A00056310 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C1C3A41F1E0A1A00056310 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95C1C3A81F1E0A1A00056310 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C1C3A91F1E0A1A00056310 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95C1C3C21F1E0A1A00056310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95C1C3C31F1E0A1A00056310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95C1C3C51F1E0A1A00056310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B422B717FE24D0669254DBE5 /* Pods-liferay-test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Enrique Vega (42QF967R46)";
+				DEVELOPMENT_TEAM = P6UPE72S5P;
+				INFOPLIST_FILE = "liferay-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		95C1C3C61F1E0A1A00056310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AAADDAA5904FE8122E67DA2 /* Pods-liferay-test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Enrique Vega (42QF967R46)";
+				DEVELOPMENT_TEAM = P6UPE72S5P;
+				INFOPLIST_FILE = "liferay-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		95C1C3C81F1E0A1A00056310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "liferay-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liferay-test.app/liferay-test";
+			};
+			name = Debug;
+		};
+		95C1C3C91F1E0A1A00056310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "liferay-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liferay-test.app/liferay-test";
+			};
+			name = Release;
+		};
+		95C1C3CB1F1E0A1A00056310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "liferay-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "liferay-test";
+			};
+			name = Debug;
+		};
+		95C1C3CC1F1E0A1A00056310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "liferay-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "liferay-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95C1C3971F1E0A1A00056310 /* Build configuration list for PBXProject "liferay-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C1C3C21F1E0A1A00056310 /* Debug */,
+				95C1C3C31F1E0A1A00056310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C1C3C41F1E0A1A00056310 /* Build configuration list for PBXNativeTarget "liferay-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C1C3C51F1E0A1A00056310 /* Debug */,
+				95C1C3C61F1E0A1A00056310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C1C3C71F1E0A1A00056310 /* Build configuration list for PBXNativeTarget "liferay-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C1C3C81F1E0A1A00056310 /* Debug */,
+				95C1C3C91F1E0A1A00056310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C1C3CA1F1E0A1A00056310 /* Build configuration list for PBXNativeTarget "liferay-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C1C3CB1F1E0A1A00056310 /* Debug */,
+				95C1C3CC1F1E0A1A00056310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95C1C3941F1E0A1A00056310 /* Project object */;
+}
