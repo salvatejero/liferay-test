@@ -23,7 +23,6 @@ class InitController: UIViewController {
         if let dict = myDict {
             let url: URL = NSURL(string: dict.object(forKey: "baseUrl") as! String)! as URL
            
-            
             do {
                 let baseHTMLString = try String(contentsOf: url, encoding: .ascii)
                 
@@ -37,11 +36,10 @@ class InitController: UIViewController {
                         print(try! liMenu.text())
                     }
                     print(liMenubars)
-                }catch Exception.Error(let type, let message)
-                {
-                    print("")
+                }catch Exception.Error(let type, let message){
+                    print("Error type: \(type.hashValue)" + "  Message :"+message)
                 }catch{
-                    print("")
+                    print("Error")
                 }
                 
                 
@@ -49,10 +47,6 @@ class InitController: UIViewController {
                 print("Error: \(error)")
             }
         }
-        
-        
-        
-        
         
         DispatchQueue.main.async() {
             [unowned self] in

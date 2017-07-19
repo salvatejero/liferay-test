@@ -13,11 +13,15 @@ class ViewController: UIViewController {
     
     @IBOutlet var webview: UIWebView?
     
+    @IBOutlet var navigationBar: UINavigationBar?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        navigationBar?.topItem?.title = "Liferay locations"
+        navigationBar?.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        navigationBar?.shadowImage = UIImage()
+        navigationBar?.isTranslucent = true
         let url = Bundle.main.url(forResource: "index", withExtension: "html", subdirectory: "asset/www")
         
         let request : NSMutableURLRequest = NSMutableURLRequest(url: url!)
@@ -31,6 +35,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override var prefersStatusBarHidden: Bool {
+        return false
+    }
 
 }
 
