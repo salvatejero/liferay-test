@@ -17,6 +17,7 @@
 		95C1C3C01F1E0A1A00056310 /* liferay_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3BF1F1E0A1A00056310 /* liferay_testUITests.swift */; };
 		95C1C3CF1F1E1C7F00056310 /* InitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3CE1F1E1C7F00056310 /* InitController.swift */; };
 		95C1C3D11F1E21B300056310 /* base.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3D01F1E21B300056310 /* base.plist */; };
+		95E567F81F1F558300BB6188 /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E567F71F1F558300BB6188 /* Checksum.swift */; };
 		BA831BFB8CC39E94A4CFC047 /* Pods_liferay_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0950401AE08F266722D03305 /* Pods_liferay_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +42,7 @@
 		0950401AE08F266722D03305 /* Pods_liferay_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liferay_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAADDAA5904FE8122E67DA2 /* Pods-liferay-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-test/Pods-liferay-test.release.xcconfig"; sourceTree = "<group>"; };
 		952245921F1E5E2F000B1AA0 /* asset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = asset; sourceTree = "<group>"; };
-		95C1C39C1F1E0A1A00056310 /* liferay-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "liferay-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C1C39C1F1E0A1A00056310 /* @salvatejero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "@salvatejero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C1C39F1F1E0A1A00056310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95C1C3A11F1E0A1A00056310 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95C1C3A41F1E0A1A00056310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		95C1C3C11F1E0A1A00056310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95C1C3CE1F1E1C7F00056310 /* InitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitController.swift; sourceTree = "<group>"; };
 		95C1C3D01F1E21B300056310 /* base.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = base.plist; sourceTree = "<group>"; };
+		95E567F71F1F558300BB6188 /* Checksum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checksum.swift; sourceTree = "<group>"; };
 		B422B717FE24D0669254DBE5 /* Pods-liferay-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-test/Pods-liferay-test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,7 +110,7 @@
 		95C1C39D1F1E0A1A00056310 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95C1C39C1F1E0A1A00056310 /* liferay-test.app */,
+				95C1C39C1F1E0A1A00056310 /* @salvatejero.app */,
 				95C1C3B01F1E0A1A00056310 /* liferay-testTests.xctest */,
 				95C1C3BB1F1E0A1A00056310 /* liferay-testUITests.xctest */,
 			);
@@ -118,6 +120,7 @@
 		95C1C39E1F1E0A1A00056310 /* liferay-test */ = {
 			isa = PBXGroup;
 			children = (
+				95E567F61F1F558300BB6188 /* Libraries */,
 				9522458D1F1E5DCE000B1AA0 /* Resources */,
 				95C1C3CD1F1E1C5900056310 /* Controllers */,
 				95C1C39F1F1E0A1A00056310 /* AppDelegate.swift */,
@@ -157,6 +160,14 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		95E567F61F1F558300BB6188 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				95E567F71F1F558300BB6188 /* Checksum.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 		A733F45833E20B6CA80EF74B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,7 +205,7 @@
 			);
 			name = "liferay-test";
 			productName = "liferay-test";
-			productReference = 95C1C39C1F1E0A1A00056310 /* liferay-test.app */;
+			productReference = 95C1C39C1F1E0A1A00056310 /* @salvatejero.app */;
 			productType = "com.apple.product-type.application";
 		};
 		95C1C3AF1F1E0A1A00056310 /* liferay-testTests */ = {
@@ -362,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E567F81F1F558300BB6188 /* Checksum.swift in Sources */,
 				95C1C3A21F1E0A1A00056310 /* ViewController.swift in Sources */,
 				95C1C3CF1F1E1C7F00056310 /* InitController.swift in Sources */,
 				95C1C3A01F1E0A1A00056310 /* AppDelegate.swift in Sources */,
@@ -517,12 +529,13 @@
 			baseConfigurationReference = B422B717FE24D0669254DBE5 /* Pods-liferay-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Enrique Vega (42QF967R46)";
 				DEVELOPMENT_TEAM = P6UPE72S5P;
 				INFOPLIST_FILE = "liferay-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "@salvatejero";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -532,12 +545,13 @@
 			baseConfigurationReference = 2AAADDAA5904FE8122E67DA2 /* Pods-liferay-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Enrique Vega (42QF967R46)";
 				DEVELOPMENT_TEAM = P6UPE72S5P;
 				INFOPLIST_FILE = "liferay-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "@salvatejero";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
