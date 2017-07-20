@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		952245931F1E5E2F000B1AA0 /* asset in Resources */ = {isa = PBXBuildFile; fileRef = 952245921F1E5E2F000B1AA0 /* asset */; };
+		959C8BB41F20A8DC0004D1BF /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C8BB31F20A8DC0004D1BF /* BaseController.swift */; };
+		959C8BB61F20B9740004D1BF /* DetailLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C8BB51F20B9740004D1BF /* DetailLocationController.swift */; };
+		959C8BB71F20CF3E0004D1BF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 959C8BB91F20CF3E0004D1BF /* Localizable.strings */; };
 		95C1C3A01F1E0A1A00056310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C39F1F1E0A1A00056310 /* AppDelegate.swift */; };
-		95C1C3A21F1E0A1A00056310 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3A11F1E0A1A00056310 /* ViewController.swift */; };
+		95C1C3A21F1E0A1A00056310 /* ListLocationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3A11F1E0A1A00056310 /* ListLocationsController.swift */; };
 		95C1C3A51F1E0A1A00056310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3A31F1E0A1A00056310 /* Main.storyboard */; };
 		95C1C3A71F1E0A1A00056310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3A61F1E0A1A00056310 /* Assets.xcassets */; };
 		95C1C3AA1F1E0A1A00056310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3A81F1E0A1A00056310 /* LaunchScreen.storyboard */; };
@@ -42,9 +45,14 @@
 		0950401AE08F266722D03305 /* Pods_liferay_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liferay_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAADDAA5904FE8122E67DA2 /* Pods-liferay-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-test/Pods-liferay-test.release.xcconfig"; sourceTree = "<group>"; };
 		952245921F1E5E2F000B1AA0 /* asset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = asset; sourceTree = "<group>"; };
+		959C8BB31F20A8DC0004D1BF /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		959C8BB51F20B9740004D1BF /* DetailLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailLocationController.swift; sourceTree = "<group>"; };
+		959C8BB81F20CF3E0004D1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		959C8BBA1F20CF560004D1BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		959C8BBC1F20D0450004D1BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		95C1C39C1F1E0A1A00056310 /* @salvatejero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "@salvatejero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C1C39F1F1E0A1A00056310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95C1C3A11F1E0A1A00056310 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95C1C3A11F1E0A1A00056310 /* ListLocationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLocationsController.swift; sourceTree = "<group>"; };
 		95C1C3A41F1E0A1A00056310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95C1C3A61F1E0A1A00056310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95C1C3A91F1E0A1A00056310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -91,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				952245921F1E5E2F000B1AA0 /* asset */,
+				959C8BB91F20CF3E0004D1BF /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -154,8 +163,10 @@
 		95C1C3CD1F1E1C5900056310 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				95C1C3A11F1E0A1A00056310 /* ViewController.swift */,
+				95C1C3A11F1E0A1A00056310 /* ListLocationsController.swift */,
 				95C1C3CE1F1E1C7F00056310 /* InitController.swift */,
+				959C8BB31F20A8DC0004D1BF /* BaseController.swift */,
+				959C8BB51F20B9740004D1BF /* DetailLocationController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -278,6 +289,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 95C1C3931F1E0A1A00056310;
 			productRefGroup = 95C1C39D1F1E0A1A00056310 /* Products */;
@@ -296,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959C8BB71F20CF3E0004D1BF /* Localizable.strings in Resources */,
 				952245931F1E5E2F000B1AA0 /* asset in Resources */,
 				95C1C3AA1F1E0A1A00056310 /* LaunchScreen.storyboard in Resources */,
 				95C1C3A71F1E0A1A00056310 /* Assets.xcassets in Resources */,
@@ -374,9 +387,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				95E567F81F1F558300BB6188 /* Checksum.swift in Sources */,
-				95C1C3A21F1E0A1A00056310 /* ViewController.swift in Sources */,
+				95C1C3A21F1E0A1A00056310 /* ListLocationsController.swift in Sources */,
+				959C8BB41F20A8DC0004D1BF /* BaseController.swift in Sources */,
 				95C1C3CF1F1E1C7F00056310 /* InitController.swift in Sources */,
 				95C1C3A01F1E0A1A00056310 /* AppDelegate.swift in Sources */,
+				959C8BB61F20B9740004D1BF /* DetailLocationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +427,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		959C8BB91F20CF3E0004D1BF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959C8BB81F20CF3E0004D1BF /* Base */,
+				959C8BBA1F20CF560004D1BF /* en */,
+				959C8BBC1F20D0450004D1BF /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		95C1C3A31F1E0A1A00056310 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -485,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UIApplication.shared.statusBarStyle = .lightContent
         
+        removeDestWWWContainer()
+        copyWWWContainer()
         return true
     }
 
@@ -51,6 +53,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    func removeDestWWWContainer(){
+        let doumentDirectoryPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
+        let destinationPath = doumentDirectoryPath.appendingPathComponent("/dist")
+        let filemgr = FileManager.default
+        do {
+            try filemgr.removeItem(atPath: destinationPath)
+        } catch let error {
+            print("Error: \(error)")
+        }
+    }
+    
+    
+    func copyWWWContainer(){
+        
+        let doumentDirectoryPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
+        let destinationPath = doumentDirectoryPath.appendingPathComponent("/dist")
+        
+        let originPath = Bundle.main.resourcePath! + "/asset"
+        
+        let filemgr = FileManager.default
+        do {
+            try filemgr.copyItem(atPath: originPath, toPath: destinationPath)
+            //self.window?.rootViewController?.view.makeToast("Se ha producido un error")
+            print("Move successful")
+            
+        } catch let error {
+            print("Error: \(error)")
+        }
+    }
 
 }
 
