@@ -1,0 +1,15 @@
+/* 
+  Localized.strings
+  liferay-test
+
+  Created by Salvador Tejero on 20/7/17.
+  Copyright © 2017 Salvador Tejero. All rights reserved.
+*/
+
+"liferay.locations"="Ubicaciones";
+
+"list.li"= "<li><a href=\"@link\" class=\"item-link\"><div class=\"item-content\"><div class=\"item-inner\"><div class=\"item-title\">@name</div></div></div></a></li>";
+
+"back" = "Volver";
+
+"card" = "<div class=\"card facebook-card\"><div class=\"card-header\"><div class=\"facebook-avatar\"><!-- IMG --></div><div class=\"facebook-name\"><!-- NAME --></div></div><div class=\"card-content\"><div class=\"card-content-inner\"><p><!-- DIRECTION --></p></div></div><div class=\"card-footer\"><a href=\"#\" class=\"link\">Guardar</a><a href=\"#\"  class=\"link\">Llamar</a><a href=\"#\" class=\"link\">Ir</a></div></div> ";
