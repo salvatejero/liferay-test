@@ -12,4 +12,8 @@
 
 "back" = "Volver";
 
-"card" = "<div class=\"card facebook-card\"><div class=\"card-header\"><div class=\"facebook-avatar\"><!-- IMG --></div><div class=\"facebook-name\"><!-- NAME --></div></div><div class=\"card-content\"><div class=\"card-content-inner\"><p><!-- DIRECTION --></p></div></div><div class=\"card-footer\"><a href=\"#\" class=\"link\">Guardar</a><a href=\"#\"  class=\"link\">Llamar</a><a href=\"#\" class=\"link\">Ir</a></div></div> ";
+
+"card" = "<div class=\"card facebook-card\"><div class=\"card-header\"><div class=\"facebook-avatar\"><!-- IMG --></div><div class=\"facebook-name\"><!-- NAME --></div></div><div class=\"card-content\"><div class=\"card-content-inner\"><p><!-- DIRECTION --></p></div></div><div class=\"card-footer\"><a href=\"contact://contact?name=<!-- NAME -->&address=<!-- MAPS -->&tel=<!-- TEL -->&bu=<!-- COMPANY -->\" class=\"link\">Guardar</a><a href=\"maps://maps.apple.com?q=<!-- MAPS -->\" class=\"link\">Ir</a></div></div> ";
+
+
+"internet.connection" = "Es necesaria una conexión a internet la primera vez que use la aplicación";

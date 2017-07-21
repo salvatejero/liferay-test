@@ -12,4 +12,5 @@
 
 "back" = "Back";
 
-"card" = "<div class=\"card facebook-card\"><div class=\"card-header\"><div class=\"facebook-avatar\"><!-- IMG --></div><div class=\"facebook-name\"><!-- IMG --></div></div><div class=\"card-content\"><div class=\"card-content-inner\"><p><!-- DIRECTION --></p></div></div><div class=\"card-footer\"><a href=\"#\" class=\"link\">Save Contact</a><a href=\"#\"  class=\"link\">Call</a><a href=\"#\" class=\"link\">Go to</a></div></div> ";
+"card" = "<div class=\"card facebook-card\"><div class=\"card-header\"><div class=\"facebook-avatar\"><!-- IMG --></div><div class=\"facebook-name\"><!-- NAME --></div></div><div class=\"card-content\"><div class=\"card-content-inner\"><p><!-- DIRECTION --></p></div></div><div class=\"card-footer\"><a href=\"contact://contact?name=<!-- NAME -->&address=<!-- MAPS -->&tel=<!-- TEL -->&bu=<!-- COMPANY -->\" class=\"link\">Save Contact</a><a href=\"maps://maps.apple.com?q=<!-- MAPS -->\" class=\"link\">Go to</a></div></div> ";
+"internet.connection" = "It's neccesary an internet connection for the first run";
