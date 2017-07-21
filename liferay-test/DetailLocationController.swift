@@ -55,7 +55,7 @@ class DetailLocationController: BaseController, UIWebViewDelegate {
                 let homePhone = CNLabeledValue(label: CNLabelHome, value: CNPhoneNumber(stringValue: tel!.replacingOccurrences(of: "Tel:", with: "")))
                 newContact.phoneNumbers = [homePhone]
                 
-                self.contactLink(contact: newContact)
+                contactLink(contact: newContact)
 
             }
             

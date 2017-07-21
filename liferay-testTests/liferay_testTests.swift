@@ -5,9 +5,11 @@
 //  Created by Salvador Tejero on 18/7/17.
 //  Copyright © 2017 Salvador Tejero. All rights reserved.
 //
-
+import UIKit
 import XCTest
-@testable import liferay_test
+import Pods_liferay_test
+
+@testable import _salvatejero
 
 class liferay_testTests: XCTestCase {
     
@@ -21,7 +23,14 @@ class liferay_testTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    
+    
+    func testAppLoad() {
+        
+        let app = AppModule()
+        let baseUrl = "https://www.liferay.com/locations"
+        let locations = app.prepareApplication(baseUrl: baseUrl)
+        XCTAssertNotNil(locations)
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

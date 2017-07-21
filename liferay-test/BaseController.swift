@@ -12,11 +12,6 @@ import ContactsUI
 
 
 class  BaseController: UIViewController, CNContactViewControllerDelegate {
-
-
-
-class  BaseController: UIViewController {
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,34 +39,7 @@ class  BaseController: UIViewController {
     func contactViewController(_ viewController: CNContactViewController, didCompleteWith contact: CNContact?) {
         viewController.navigationController?.dismiss(animated: true)
     }
-    
-    /**
-     
-     Find a string between regex expression
-     
-     @param regex Regex expression
-     @param text string to find
-     */
-    func matchesForRegexInText(regex: String!, text: String!) -> [String] {
-        
-        do {
-            
-            let regex = try NSRegularExpression(pattern: regex, options: [])
-            let nsString = text as NSString
-            
-            let results = regex.matches(in: text,
-                                                options: [], range: NSMakeRange(0, nsString.length))
-            return results.map { nsString.substring(with: $0.range)}
-            
-        } catch let error as NSError {
-            
-            print("invalid regex: \(error.localizedDescription)")
-            
-            return []
-        }}
 
-        
-    }
 
 }
 

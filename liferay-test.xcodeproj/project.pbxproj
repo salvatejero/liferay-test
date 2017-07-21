@@ -11,16 +11,14 @@
 		959C8BB41F20A8DC0004D1BF /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C8BB31F20A8DC0004D1BF /* BaseController.swift */; };
 		959C8BB61F20B9740004D1BF /* DetailLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C8BB51F20B9740004D1BF /* DetailLocationController.swift */; };
 		959C8BB71F20CF3E0004D1BF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 959C8BB91F20CF3E0004D1BF /* Localizable.strings */; };
-
 		959C8BBE1F20F0F70004D1BF /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C8BBD1F20F0F70004D1BF /* LocationService.swift */; };
-
+		959C8BC21F225DC10004D1BF /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C8BC11F225DC10004D1BF /* AppModule.swift */; };
 		95C1C3A01F1E0A1A00056310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C39F1F1E0A1A00056310 /* AppDelegate.swift */; };
 		95C1C3A21F1E0A1A00056310 /* ListLocationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3A11F1E0A1A00056310 /* ListLocationsController.swift */; };
 		95C1C3A51F1E0A1A00056310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3A31F1E0A1A00056310 /* Main.storyboard */; };
 		95C1C3A71F1E0A1A00056310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3A61F1E0A1A00056310 /* Assets.xcassets */; };
 		95C1C3AA1F1E0A1A00056310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3A81F1E0A1A00056310 /* LaunchScreen.storyboard */; };
 		95C1C3B51F1E0A1A00056310 /* liferay_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3B41F1E0A1A00056310 /* liferay_testTests.swift */; };
-		95C1C3C01F1E0A1A00056310 /* liferay_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3BF1F1E0A1A00056310 /* liferay_testUITests.swift */; };
 		95C1C3CF1F1E1C7F00056310 /* InitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C1C3CE1F1E1C7F00056310 /* InitController.swift */; };
 		95C1C3D11F1E21B300056310 /* base.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95C1C3D01F1E21B300056310 /* base.plist */; };
 		95E567F81F1F558300BB6188 /* Checksum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E567F71F1F558300BB6188 /* Checksum.swift */; };
@@ -35,26 +33,20 @@
 			remoteGlobalIDString = 95C1C39B1F1E0A1A00056310;
 			remoteInfo = "liferay-test";
 		};
-		95C1C3BC1F1E0A1A00056310 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 95C1C3941F1E0A1A00056310 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 95C1C39B1F1E0A1A00056310;
-			remoteInfo = "liferay-test";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0950401AE08F266722D03305 /* Pods_liferay_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liferay_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAADDAA5904FE8122E67DA2 /* Pods-liferay-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liferay-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-liferay-test/Pods-liferay-test.release.xcconfig"; sourceTree = "<group>"; };
+		6CAEFE92095270FECAE7007E /* Pods_liferay_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liferay_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		952245921F1E5E2F000B1AA0 /* asset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = asset; sourceTree = "<group>"; };
 		959C8BB31F20A8DC0004D1BF /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		959C8BB51F20B9740004D1BF /* DetailLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailLocationController.swift; sourceTree = "<group>"; };
 		959C8BB81F20CF3E0004D1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		959C8BBA1F20CF560004D1BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		959C8BBC1F20D0450004D1BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-
 		959C8BBD1F20F0F70004D1BF /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		959C8BC11F225DC10004D1BF /* AppModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
 		95C1C39C1F1E0A1A00056310 /* @salvatejero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "@salvatejero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C1C39F1F1E0A1A00056310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95C1C3A11F1E0A1A00056310 /* ListLocationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLocationsController.swift; sourceTree = "<group>"; };
@@ -65,9 +57,6 @@
 		95C1C3B01F1E0A1A00056310 /* liferay-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "liferay-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C1C3B41F1E0A1A00056310 /* liferay_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liferay_testTests.swift; sourceTree = "<group>"; };
 		95C1C3B61F1E0A1A00056310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95C1C3BB1F1E0A1A00056310 /* liferay-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "liferay-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95C1C3BF1F1E0A1A00056310 /* liferay_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liferay_testUITests.swift; sourceTree = "<group>"; };
-		95C1C3C11F1E0A1A00056310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95C1C3CE1F1E1C7F00056310 /* InitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitController.swift; sourceTree = "<group>"; };
 		95C1C3D01F1E21B300056310 /* base.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = base.plist; sourceTree = "<group>"; };
 		95E567F71F1F558300BB6188 /* Checksum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checksum.swift; sourceTree = "<group>"; };
@@ -84,13 +73,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		95C1C3AD1F1E0A1A00056310 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		95C1C3B81F1E0A1A00056310 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -114,7 +96,6 @@
 			children = (
 				95C1C39E1F1E0A1A00056310 /* liferay-test */,
 				95C1C3B31F1E0A1A00056310 /* liferay-testTests */,
-				95C1C3BE1F1E0A1A00056310 /* liferay-testUITests */,
 				95C1C39D1F1E0A1A00056310 /* Products */,
 				DC9E2673A11C3359DB274FE5 /* Pods */,
 				A733F45833E20B6CA80EF74B /* Frameworks */,
@@ -126,7 +107,6 @@
 			children = (
 				95C1C39C1F1E0A1A00056310 /* @salvatejero.app */,
 				95C1C3B01F1E0A1A00056310 /* liferay-testTests.xctest */,
-				95C1C3BB1F1E0A1A00056310 /* liferay-testUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,15 +136,6 @@
 			path = "liferay-testTests";
 			sourceTree = "<group>";
 		};
-		95C1C3BE1F1E0A1A00056310 /* liferay-testUITests */ = {
-			isa = PBXGroup;
-			children = (
-				95C1C3BF1F1E0A1A00056310 /* liferay_testUITests.swift */,
-				95C1C3C11F1E0A1A00056310 /* Info.plist */,
-			);
-			path = "liferay-testUITests";
-			sourceTree = "<group>";
-		};
 		95C1C3CD1F1E1C5900056310 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,9 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				95E567F71F1F558300BB6188 /* Checksum.swift */,
-
 				959C8BBD1F20F0F70004D1BF /* LocationService.swift */,
-
+				959C8BC11F225DC10004D1BF /* AppModule.swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -191,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				0950401AE08F266722D03305 /* Pods_liferay_test.framework */,
+				6CAEFE92095270FECAE7007E /* Pods_liferay_testTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -245,24 +216,6 @@
 			productReference = 95C1C3B01F1E0A1A00056310 /* liferay-testTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		95C1C3BA1F1E0A1A00056310 /* liferay-testUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 95C1C3CA1F1E0A1A00056310 /* Build configuration list for PBXNativeTarget "liferay-testUITests" */;
-			buildPhases = (
-				95C1C3B71F1E0A1A00056310 /* Sources */,
-				95C1C3B81F1E0A1A00056310 /* Frameworks */,
-				95C1C3B91F1E0A1A00056310 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				95C1C3BD1F1E0A1A00056310 /* PBXTargetDependency */,
-			);
-			name = "liferay-testUITests";
-			productName = "liferay-testUITests";
-			productReference = 95C1C3BB1F1E0A1A00056310 /* liferay-testUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -275,15 +228,9 @@
 				TargetAttributes = {
 					95C1C39B1F1E0A1A00056310 = {
 						CreatedOnToolsVersion = 8.3.3;
-
 						ProvisioningStyle = Automatic;
 					};
 					95C1C3AF1F1E0A1A00056310 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 95C1C39B1F1E0A1A00056310;
-					};
-					95C1C3BA1F1E0A1A00056310 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 95C1C39B1F1E0A1A00056310;
@@ -306,7 +253,6 @@
 			targets = (
 				95C1C39B1F1E0A1A00056310 /* liferay-test */,
 				95C1C3AF1F1E0A1A00056310 /* liferay-testTests */,
-				95C1C3BA1F1E0A1A00056310 /* liferay-testUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -326,13 +272,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		95C1C3AE1F1E0A1A00056310 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		95C1C3B91F1E0A1A00056310 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,9 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				959C8BBE1F20F0F70004D1BF /* LocationService.swift in Sources */,
-
+				959C8BC21F225DC10004D1BF /* AppModule.swift in Sources */,
 				95E567F81F1F558300BB6188 /* Checksum.swift in Sources */,
 				95C1C3A21F1E0A1A00056310 /* ListLocationsController.swift in Sources */,
 				959C8BB41F20A8DC0004D1BF /* BaseController.swift in Sources */,
@@ -414,14 +352,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95C1C3B71F1E0A1A00056310 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95C1C3C01F1E0A1A00056310 /* liferay_testUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -429,11 +359,6 @@
 			isa = PBXTargetDependency;
 			target = 95C1C39B1F1E0A1A00056310 /* liferay-test */;
 			targetProxy = 95C1C3B11F1E0A1A00056310 /* PBXContainerItemProxy */;
-		};
-		95C1C3BD1F1E0A1A00056310 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 95C1C39B1F1E0A1A00056310 /* liferay-test */;
-			targetProxy = 95C1C3BC1F1E0A1A00056310 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -586,7 +511,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
@@ -594,7 +518,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-test";
 				PRODUCT_NAME = "@salvatejero";
-
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
@@ -611,7 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liferay-test.app/liferay-test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/@salvatejero.app/@salvatejero";
 			};
 			name = Debug;
 		};
@@ -625,33 +548,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liferay-test.app/liferay-test";
-			};
-			name = Release;
-		};
-		95C1C3CB1F1E0A1A00056310 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "liferay-testUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "liferay-test";
-			};
-			name = Debug;
-		};
-		95C1C3CC1F1E0A1A00056310 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "liferay-testUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.salva.liferay-test.liferay-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "liferay-test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/@salvatejero.app/@salvatejero";
 			};
 			name = Release;
 		};
@@ -681,15 +578,6 @@
 			buildConfigurations = (
 				95C1C3C81F1E0A1A00056310 /* Debug */,
 				95C1C3C91F1E0A1A00056310 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		95C1C3CA1F1E0A1A00056310 /* Build configuration list for PBXNativeTarget "liferay-testUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95C1C3CB1F1E0A1A00056310 /* Debug */,
-				95C1C3CC1F1E0A1A00056310 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

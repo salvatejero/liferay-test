@@ -66,9 +66,9 @@ class ListLocationsController: BaseController, UIWebViewDelegate, LocationServic
                 let homePhone = CNLabeledValue(label: CNLabelHome, value: CNPhoneNumber(stringValue: tel!.replacingOccurrences(of: "Tel:", with: "")))
                 newContact.phoneNumbers = [homePhone]
                 
-                self.contactLink(contact: newContact)
+                contactLink(contact: newContact)
                 
-            }else{
+            }else if request.url?.scheme != "maps"{
                 DispatchQueue.main.async() {
                     [unowned self] in
                 
