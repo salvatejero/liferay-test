@@ -114,8 +114,6 @@ class ListLocationsController: BaseController, UIWebViewDelegate, LocationServic
         detailViewcontroller.navigationItem.title = name
         detailViewcontroller.detailSelected = name
     }
-    
-    
-    
+      
 }
 

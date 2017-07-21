@@ -12,6 +12,11 @@ import ContactsUI
 
 
 class  BaseController: UIViewController, CNContactViewControllerDelegate {
+
+
+
+class  BaseController: UIViewController {
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +24,7 @@ class  BaseController: UIViewController, CNContactViewControllerDelegate {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
+
     }
     
     /**
@@ -63,13 +69,17 @@ class  BaseController: UIViewController, CNContactViewControllerDelegate {
             
             return []
         }}
+
+        
+    }
+
 }
 
 extension String {
     func index(of string: String, options: CompareOptions = .literal) -> Index? {
         return range(of: string, options: options)?.lowerBound
     }
-    
+
 }
 
 
